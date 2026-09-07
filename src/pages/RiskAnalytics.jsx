@@ -13,7 +13,7 @@ import {
   Filler
 } from 'chart.js';
 import { Line, Bar, Doughnut } from 'react-chartjs-2';
-import { TrendingUp, ShieldCheck, Target, Award, BarChart2 } from 'lucide-react';
+import { TrendingUp, ShieldCheck, Target, Award } from 'lucide-react';
 
 // Register ChartJS modules
 ChartJS.register(

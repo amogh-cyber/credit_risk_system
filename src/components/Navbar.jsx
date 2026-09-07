@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldAlert, Activity, FileSpreadsheet, User, Bell } from 'lucide-react';
+import { ShieldAlert, User, Bell } from 'lucide-react';
 
 export default function Navbar({ activePage, customerCount }) {
   const getPageTitle = () => {

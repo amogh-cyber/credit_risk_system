@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
-import { Filter, Download, ChevronDown, ChevronUp, Search, Info, ShieldAlert, ArrowUpDown, UserCheck } from 'lucide-react';
+import { Filter, Download, ChevronDown, ChevronUp, Search, ArrowUpDown } from 'lucide-react';
 import RiskGauge from '../components/RiskGauge';
-import { generatePDFReport, generateExcelReport, exportToCSVFile } from '../services/exportService';
+import { generatePDFReport, generateExcelReport } from '../services/exportService';
 
 const EMPLOYMENT_OPTIONS = ['Employed', 'Self-Employed', 'Unemployed', 'Retired', 'Contract'];
 

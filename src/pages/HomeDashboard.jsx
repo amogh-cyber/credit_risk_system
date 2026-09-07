@@ -1,7 +1,7 @@
 import React from 'react';
 import { Users, AlertTriangle, ShieldAlert, CheckCircle2, UploadCloud, BarChart2, FileText, ArrowRight, Sparkles } from 'lucide-react';
 
-export default function HomeDashboard({ predictions, metrics, setActivePage, setSelectedCustomer }) {
+export default function HomeDashboard({ predictions, setActivePage, setSelectedCustomer }) {
   const total = predictions.length;
   const highRiskCount = predictions.filter(p => p.risk_category === 'High').length;
   const mediumRiskCount = predictions.filter(p => p.risk_category === 'Medium').length;

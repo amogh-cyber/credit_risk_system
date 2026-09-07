@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Papa from 'papaparse';
-import { UploadCloud, FileSpreadsheet, CheckCircle, XCircle, AlertTriangle, Download, ArrowRight, RefreshCw } from 'lucide-react';
+import { UploadCloud, CheckCircle, XCircle, Download, ArrowRight, RefreshCw } from 'lucide-react';
 import { processCustomerBatch } from '../services/mlEngine';
 import { getSampleCSVString, generateSampleCustomers } from '../services/sampleData';
 

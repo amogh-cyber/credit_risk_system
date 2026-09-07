@@ -5,7 +5,7 @@
  */
 
 // Weights for prediction scoring model based on domain credit risk logic
-const FEATURE_WEIGHTS = {
+export const FEATURE_WEIGHTS = {
   payment_history: -0.35,  // High payment score reduces risk dramatically
   debt_ratio: 0.28,        // High debt ratio increases risk
   loan_to_income: 0.22,    // High loan to income ratio increases risk

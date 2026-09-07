@@ -23,7 +23,7 @@ export function generatePDFReport(predictions, options = {}) {
   doc.setTextColor(255, 255, 255);
   doc.setFontSize(18);
   doc.setFont('helvetica', 'bold');
-  doc.text('CREDIT RISK PREDICTION SYSTEM', 14, 18);
+  doc.text(title.toUpperCase(), 14, 18);
 
   doc.setFontSize(10);
   doc.setFont('helvetica', 'normal');

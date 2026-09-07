@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FileText, Download, CheckSquare, Eye, FileSpreadsheet, Sparkles, CheckCircle } from 'lucide-react';
+import { FileText, Download, Eye, FileSpreadsheet, CheckCircle } from 'lucide-react';
 import { generatePDFReport, generateExcelReport, exportToCSVFile } from '../services/exportService';
 
 export default function ReportGenerator({ predictions }) {

@@ -1,6 +1,5 @@
 import React from 'react';
-import { ShieldAlert, DollarSign, Briefcase, Clock, AlertTriangle, CheckCircle2, FileSpreadsheet, ArrowLeft } from 'lucide-react';
-import RiskGauge from '../components/RiskGauge';
+import { ShieldAlert, DollarSign, Briefcase, Clock, AlertTriangle, CheckCircle2, ArrowLeft } from 'lucide-react';
 
 export default function CustomerProfile({ customer, allCustomers, onSelectCustomer, setActivePage }) {
   if (!customer) {
@@ -32,7 +31,6 @@ export default function CustomerProfile({ customer, allCustomers, onSelectCustom
     recommendation,
     badgeColor,
     confidence_level = 0.94,
-    feature_contributions = [],
     risk_factors = [],
     derived = {}
   } = customer;
